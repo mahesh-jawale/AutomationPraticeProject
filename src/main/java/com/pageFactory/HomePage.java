@@ -2,6 +2,7 @@ package com.pageFactory;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import com.generic.BaseTest;
 
@@ -19,10 +20,12 @@ public class HomePage {
 
 	public void verifyLogoInHomePage() {
 		Assert.assertTrue(objBaseTest.getObjseleniumWrapperFunctions().isDisplayed(loc_hdrLogo));
+		Reporter.log("Verify header logo",true);
 	}
 
 	public void clickOnSignInOptionInHomePage() {
 		Assert.assertTrue(objBaseTest.getObjseleniumWrapperFunctions().click(loc_linkSigninOption));
+		Reporter.log("Click on Sign in option",true);
 	}
 
 }

@@ -9,18 +9,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseTest {
 	
 	private WebDriver driver=null;
-	private String strURL="http://automationpractice.com/index.php";
+	private String strURL="";
 	private Properties objConfig;
 
 	private SeleniumWrapperFunctions objseleniumWrapperFunctions;
 	
 	public void initializeWebEnvironment()
 	{
-		//this.loadConfigProperties();
+		this.loadConfigProperties();
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/resources/drivers/chromedriver.exe");
 		driver=new ChromeDriver();
 		setObjseleniumWrapperFunctions(new SeleniumWrapperFunctions(this));
-		//strURL=objConfig.getProperty("AUT_URL");
+		strURL=objConfig.getProperty("AUT_URL");
 		System.out.println("Opening URL : "+strURL);
 		driver.get(strURL);
 		driver.manage().window().maximize();
@@ -29,8 +29,8 @@ public class BaseTest {
 	public void loadConfigProperties(){
 		try {
 		objConfig = new Properties();
-		System.out.println("Path : "+System.getProperty("user.dir")+"/configuration/config.properties");
-		objConfig.load(new FileInputStream(System.getProperty("user.dir")+"/configuration/config.properties"));
+		System.out.println("Path : "+System.getProperty("user.dir")+"/src/test/resources/configurations/config.properties");
+		objConfig.load(new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/configurations/config.properties"));
 		} catch (Exception exception) {
 		System.out.println("I got exception : "+exception.getMessage());
 		exception.printStackTrace();

@@ -1,29 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Verify header logo]]>
+    </line>
+    <line>
+      <![CDATA[Click on Sign in option]]>
+    </line>
+    <line>
+      <![CDATA[Verify Authentication Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Set Email Id]]>
+    </line>
+    <line>
+      <![CDATA[Set Password]]>
+    </line>
+    <line>
+      <![CDATA[Click On Sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verify header logo]]>
+    </line>
+    <line>
+      <![CDATA[Verify Women tab]]>
+    </line>
+    <line>
+      <![CDATA[Verify Dresses tab]]>
+    </line>
+    <line>
+      <![CDATA[Verify TShirts tab]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Mahesh Jawale]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Sign out]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Contact us]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Cart (empty)]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> WOMEN]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> DRESSES]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> T-SHIRTS]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ORDER HISTORY AND DETAILS]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> MY CREDIT SLIPS]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> MY ADDRESSES]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> MY PERSONAL INFORMATION]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> MY WISHLISTS]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Home]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Women]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Specials]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> New products]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Best sellers]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Our stores]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Contact us]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Terms and conditions of use]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> About us]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Sitemap]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Ecommerce software by PrestaShop™]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> My account]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> My orders]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> My credit slips]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> My addresses]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> My personal info]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Sign out]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> support@seleniumframework.com]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26049" started-at="2021-12-23T15:12:47Z" finished-at="2021-12-23T15:13:13Z">
+  <suite name="SmokeTestSuite" duration-ms="27718" started-at="2021-12-24T14:31:43Z" finished-at="2021-12-24T14:32:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26049" started-at="2021-12-23T15:12:47Z" finished-at="2021-12-23T15:13:13Z">
+    <test name="AutomationPracticeProjectTest" duration-ms="27718" started-at="2021-12-24T14:31:43Z" finished-at="2021-12-24T14:32:11Z">
       <class name="com.scripts.AuthenticationTest">
-        <test-method status="PASS" signature="beforeMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@6d00a15d]" name="beforeMainMethod" is-config="true" duration-ms="16726" started-at="2021-12-23T20:42:47Z" finished-at="2021-12-23T20:43:03Z">
+        <test-method status="PASS" signature="beforeMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@18eed359]" name="beforeMainMethod" is-config="true" duration-ms="18225" started-at="2021-12-24T20:01:43Z" finished-at="2021-12-24T20:02:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMainMethod -->
-        <test-method status="PASS" signature="TCID_101_LoginFuctionality()[pri:1, instance:com.scripts.AuthenticationTest@6d00a15d]" name="TCID_101_LoginFuctionality" duration-ms="9123" started-at="2021-12-23T20:43:03Z" finished-at="2021-12-23T20:43:12Z">
+        <test-method status="PASS" signature="TCID_101_LoginFuctionality()[pri:1, instance:com.scripts.AuthenticationTest@18eed359]" name="TCID_101_LoginFuctionality" duration-ms="8447" started-at="2021-12-24T20:02:01Z" finished-at="2021-12-24T20:02:10Z">
           <reporter-output>
+            <line>
+              <![CDATA[Verify header logo]]>
+            </line>
+            <line>
+              <![CDATA[Click on Sign in option]]>
+            </line>
+            <line>
+              <![CDATA[Verify Authentication Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Set Email Id]]>
+            </line>
+            <line>
+              <![CDATA[Set Password]]>
+            </line>
+            <line>
+              <![CDATA[Click On Sign in button]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is logged in successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TCID_101_LoginFuctionality -->
-        <test-method status="PASS" signature="TCID_101_VerifyTabs()[pri:2, instance:com.scripts.AuthenticationTest@6d00a15d]" name="TCID_101_VerifyTabs" duration-ms="181" started-at="2021-12-23T20:43:12Z" finished-at="2021-12-23T20:43:13Z">
+        <test-method status="PASS" signature="TCID_102_VerifyTabsOnMyAccountPage()[pri:2, instance:com.scripts.AuthenticationTest@18eed359]" name="TCID_102_VerifyTabsOnMyAccountPage" duration-ms="187" started-at="2021-12-24T20:02:10Z" finished-at="2021-12-24T20:02:10Z">
           <reporter-output>
+            <line>
+              <![CDATA[Verify header logo]]>
+            </line>
+            <line>
+              <![CDATA[Verify Women tab]]>
+            </line>
+            <line>
+              <![CDATA[Verify Dresses tab]]>
+            </line>
+            <line>
+              <![CDATA[Verify TShirts tab]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- TCID_101_VerifyTabs -->
-        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2021-12-23T20:43:13Z" finished-at="2021-12-23T20:43:13Z">
+        </test-method> <!-- TCID_102_VerifyTabsOnMyAccountPage -->
+        <test-method status="PASS" signature="TCID_103_VerifyAndGetAllLinksOnAuthenticationPage()[pri:3, instance:com.scripts.AuthenticationTest@18eed359]" name="TCID_103_VerifyAndGetAllLinksOnAuthenticationPage" duration-ms="837" started-at="2021-12-24T20:02:10Z" finished-at="2021-12-24T20:02:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Mahesh Jawale]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Sign out]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Contact us]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Cart (empty)]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> WOMEN]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> DRESSES]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> T-SHIRTS]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ORDER HISTORY AND DETAILS]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> MY CREDIT SLIPS]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> MY ADDRESSES]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> MY PERSONAL INFORMATION]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> MY WISHLISTS]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Home]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Women]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Specials]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> New products]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Best sellers]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Our stores]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Contact us]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Terms and conditions of use]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> About us]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Sitemap]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Ecommerce software by PrestaShop™]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> My account]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> My orders]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> My credit slips]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> My addresses]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> My personal info]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Sign out]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> support@seleniumframework.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TCID_103_VerifyAndGetAllLinksOnAuthenticationPage -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@18eed359]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2021-12-24T20:02:11Z" finished-at="2021-12-24T20:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMainMethod -->
       </class> <!-- com.scripts.AuthenticationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- AutomationPracticeProjectTest -->
+  </suite> <!-- SmokeTestSuite -->
 </testng-results>
