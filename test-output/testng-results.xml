@@ -1,47 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[Verify header logo]]>
-    </line>
-    <line>
-      <![CDATA[Click on Sign in option]]>
-    </line>
-    <line>
-      <![CDATA[Verify Authentication Page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Set Email Id]]>
-    </line>
-    <line>
-      <![CDATA[Set Password]]>
-    </line>
-    <line>
-      <![CDATA[Click On Sign in button]]>
-    </line>
-    <line>
-      <![CDATA[Verify user is logged in successfully]]>
-    </line>
-    <line>
-      <![CDATA[Verify header logo]]>
-    </line>
-    <line>
-      <![CDATA[Verify Women tab]]>
-    </line>
-    <line>
-      <![CDATA[Verify Dresses tab]]>
-    </line>
-    <line>
-      <![CDATA[Verify TShirts tab]]>
-    </line>
     <line>
       <![CDATA[All Links----> ]]>
     </line>
     <line>
-      <![CDATA[All Links----> Mahesh Jawale]]>
-    </line>
-    <line>
-      <![CDATA[All Links----> Sign out]]>
+      <![CDATA[All Links----> Sign in]]>
     </line>
     <line>
       <![CDATA[All Links----> Contact us]]>
@@ -101,22 +65,307 @@
       <![CDATA[All Links----> ]]>
     </line>
     <line>
-      <![CDATA[All Links----> ORDER HISTORY AND DETAILS]]>
+      <![CDATA[All Links----> ]]>
     </line>
     <line>
-      <![CDATA[All Links----> MY CREDIT SLIPS]]>
+      <![CDATA[All Links----> ]]>
     </line>
     <line>
-      <![CDATA[All Links----> MY ADDRESSES]]>
+      <![CDATA[All Links----> ]]>
     </line>
     <line>
-      <![CDATA[All Links----> MY PERSONAL INFORMATION]]>
+      <![CDATA[All Links----> ]]>
     </line>
     <line>
-      <![CDATA[All Links----> MY WISHLISTS]]>
+      <![CDATA[All Links----> Prev]]>
     </line>
     <line>
-      <![CDATA[All Links----> Home]]>
+      <![CDATA[All Links----> Next]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> POPULAR]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> BEST SELLERS]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Faded Short Sleeve T-shirts]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Blouse]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Printed Dress]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Printed Dress]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Printed Summer Dress]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Printed Summer Dress]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Printed Chiffon Dress]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> Selenium Framework]]>
+    </line>
+    <line>
+      <![CDATA[All Links----> ]]>
     </line>
     <line>
       <![CDATA[All Links----> ]]>
@@ -197,72 +446,52 @@
       <![CDATA[All Links----> My personal info]]>
     </line>
     <line>
-      <![CDATA[All Links----> Sign out]]>
-    </line>
-    <line>
       <![CDATA[All Links----> support@seleniumframework.com]]>
     </line>
+    <line>
+      <![CDATA[Verify header logo]]>
+    </line>
+    <line>
+      <![CDATA[Click on Sign in option]]>
+    </line>
+    <line>
+      <![CDATA[Verify Authentication Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Set Email Id]]>
+    </line>
+    <line>
+      <![CDATA[Set Password]]>
+    </line>
+    <line>
+      <![CDATA[Click On Sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verify header logo]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Automation-Workspace\AutomationPracticeProject\screenshots\TCID_103_VerifyTabsOnMyAccountPage.png>Screenshot link</a>]]>
+    </line>
   </reporter-output>
-  <suite name="SmokeTestSuite" duration-ms="27718" started-at="2021-12-24T14:31:43Z" finished-at="2021-12-24T14:32:11Z">
+  <suite name="SmokeTestSuite" duration-ms="34789" started-at="2021-12-29T13:57:40Z" finished-at="2021-12-29T13:58:14Z">
     <groups>
     </groups>
-    <test name="AutomationPracticeProjectTest" duration-ms="27718" started-at="2021-12-24T14:31:43Z" finished-at="2021-12-24T14:32:11Z">
+    <test name="AutomationPracticeProjectTest" duration-ms="34789" started-at="2021-12-29T13:57:40Z" finished-at="2021-12-29T13:58:14Z">
       <class name="com.scripts.AuthenticationTest">
-        <test-method status="PASS" signature="beforeMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@18eed359]" name="beforeMainMethod" is-config="true" duration-ms="18225" started-at="2021-12-24T20:01:43Z" finished-at="2021-12-24T20:02:01Z">
+        <test-method status="PASS" signature="beforeMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@6c3708b3]" name="beforeMainMethod" is-config="true" duration-ms="13698" started-at="2021-12-29T19:27:40Z" finished-at="2021-12-29T19:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMainMethod -->
-        <test-method status="PASS" signature="TCID_101_LoginFuctionality()[pri:1, instance:com.scripts.AuthenticationTest@18eed359]" name="TCID_101_LoginFuctionality" duration-ms="8447" started-at="2021-12-24T20:02:01Z" finished-at="2021-12-24T20:02:10Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify header logo]]>
-            </line>
-            <line>
-              <![CDATA[Click on Sign in option]]>
-            </line>
-            <line>
-              <![CDATA[Verify Authentication Page is Displayed]]>
-            </line>
-            <line>
-              <![CDATA[Set Email Id]]>
-            </line>
-            <line>
-              <![CDATA[Set Password]]>
-            </line>
-            <line>
-              <![CDATA[Click On Sign in button]]>
-            </line>
-            <line>
-              <![CDATA[Verify user is logged in successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TCID_101_LoginFuctionality -->
-        <test-method status="PASS" signature="TCID_102_VerifyTabsOnMyAccountPage()[pri:2, instance:com.scripts.AuthenticationTest@18eed359]" name="TCID_102_VerifyTabsOnMyAccountPage" duration-ms="187" started-at="2021-12-24T20:02:10Z" finished-at="2021-12-24T20:02:10Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Verify header logo]]>
-            </line>
-            <line>
-              <![CDATA[Verify Women tab]]>
-            </line>
-            <line>
-              <![CDATA[Verify Dresses tab]]>
-            </line>
-            <line>
-              <![CDATA[Verify TShirts tab]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TCID_102_VerifyTabsOnMyAccountPage -->
-        <test-method status="PASS" signature="TCID_103_VerifyAndGetAllLinksOnAuthenticationPage()[pri:3, instance:com.scripts.AuthenticationTest@18eed359]" name="TCID_103_VerifyAndGetAllLinksOnAuthenticationPage" duration-ms="837" started-at="2021-12-24T20:02:10Z" finished-at="2021-12-24T20:02:11Z">
+        <test-method status="PASS" signature="TCID_101_VerifyAndGetAllLinksOnHomePage()[pri:1, instance:com.scripts.AuthenticationTest@6c3708b3]" name="TCID_101_VerifyAndGetAllLinksOnHomePage" duration-ms="2258" started-at="2021-12-29T19:27:53Z" finished-at="2021-12-29T19:27:56Z">
           <reporter-output>
             <line>
               <![CDATA[All Links----> ]]>
             </line>
             <line>
-              <![CDATA[All Links----> Mahesh Jawale]]>
-            </line>
-            <line>
-              <![CDATA[All Links----> Sign out]]>
+              <![CDATA[All Links----> Sign in]]>
             </line>
             <line>
               <![CDATA[All Links----> Contact us]]>
@@ -322,22 +551,307 @@
               <![CDATA[All Links----> ]]>
             </line>
             <line>
-              <![CDATA[All Links----> ORDER HISTORY AND DETAILS]]>
+              <![CDATA[All Links----> ]]>
             </line>
             <line>
-              <![CDATA[All Links----> MY CREDIT SLIPS]]>
+              <![CDATA[All Links----> ]]>
             </line>
             <line>
-              <![CDATA[All Links----> MY ADDRESSES]]>
+              <![CDATA[All Links----> ]]>
             </line>
             <line>
-              <![CDATA[All Links----> MY PERSONAL INFORMATION]]>
+              <![CDATA[All Links----> ]]>
             </line>
             <line>
-              <![CDATA[All Links----> MY WISHLISTS]]>
+              <![CDATA[All Links----> Prev]]>
             </line>
             <line>
-              <![CDATA[All Links----> Home]]>
+              <![CDATA[All Links----> Next]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> POPULAR]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> BEST SELLERS]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Faded Short Sleeve T-shirts]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Blouse]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Printed Dress]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Printed Dress]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Printed Summer Dress]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Printed Summer Dress]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Printed Chiffon Dress]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> Selenium Framework]]>
+            </line>
+            <line>
+              <![CDATA[All Links----> ]]>
             </line>
             <line>
               <![CDATA[All Links----> ]]>
@@ -418,14 +932,86 @@
               <![CDATA[All Links----> My personal info]]>
             </line>
             <line>
-              <![CDATA[All Links----> Sign out]]>
-            </line>
-            <line>
               <![CDATA[All Links----> support@seleniumframework.com]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TCID_103_VerifyAndGetAllLinksOnAuthenticationPage -->
-        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@18eed359]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2021-12-24T20:02:11Z" finished-at="2021-12-24T20:02:11Z">
+        </test-method> <!-- TCID_101_VerifyAndGetAllLinksOnHomePage -->
+        <test-method status="PASS" signature="TCID_102_LoginFuctionality()[pri:2, instance:com.scripts.AuthenticationTest@6c3708b3]" name="TCID_102_LoginFuctionality" duration-ms="8360" started-at="2021-12-29T19:27:56Z" finished-at="2021-12-29T19:28:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify header logo]]>
+            </line>
+            <line>
+              <![CDATA[Click on Sign in option]]>
+            </line>
+            <line>
+              <![CDATA[Verify Authentication Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Set Email Id]]>
+            </line>
+            <line>
+              <![CDATA[Set Password]]>
+            </line>
+            <line>
+              <![CDATA[Click On Sign in button]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TCID_102_LoginFuctionality -->
+        <test-method status="FAIL" signature="TCID_103_VerifyTabsOnMyAccountPage()[pri:3, instance:com.scripts.AuthenticationTest@6c3708b3]" name="TCID_103_VerifyTabsOnMyAccountPage" duration-ms="10209" started-at="2021-12-29T19:28:04Z" finished-at="2021-12-29T19:28:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageFactory.MyAccountPage.verifyTabWomenInMyAccountPageIsDisplayed(MyAccountPage.java:30)
+	at com.flows.MyAccountFlow.verifyTabsOnMyAccountPage(MyAccountFlow.java:17)
+	at com.scripts.AuthenticationTest.TCID_103_VerifyTabsOnMyAccountPage(AuthenticationTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Verify header logo]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Automation-Workspace\AutomationPracticeProject\screenshots\TCID_103_VerifyTabsOnMyAccountPage.png>Screenshot link</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TCID_103_VerifyTabsOnMyAccountPage -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.scripts.AuthenticationTest@6c3708b3]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2021-12-29T19:28:14Z" finished-at="2021-12-29T19:28:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMainMethod -->

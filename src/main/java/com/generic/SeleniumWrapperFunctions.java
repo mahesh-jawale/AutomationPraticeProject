@@ -5,6 +5,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,6 +27,7 @@ public class SeleniumWrapperFunctions {
 	public boolean setText(By locator, String strInputValue) {
 		try{
 		objBaseTest.getDriver().findElement(locator).sendKeys(strInputValue);
+		
 		return true;
 		}
 		catch(Exception exception)
@@ -124,8 +126,15 @@ public class SeleniumWrapperFunctions {
 	public boolean click(By locator)
 	{
 		try
-		{
+		{ 
+			/*//Normal Selenium Code
 			objBaseTest.getDriver().findElement(locator).click();
+			return true;*/
+			
+			//JavaScript Code
+			WebElement element=objBaseTest.getDriver().findElement(locator);
+			JavascriptExecutor executor=(JavascriptExecutor)objBaseTest.getDriver();
+			executor.executeScript("arguments[0].click();", element);
 			return true;
 			
 		}
@@ -371,5 +380,34 @@ public class SeleniumWrapperFunctions {
 				return false;
 			}
 		}
+		
+		public boolean scrollDownToBottom()
+		{
+		try{
+
+		JavascriptExecutor js = (JavascriptExecutor)objBaseTest.getDriver();
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+		return true;
+		}catch(Exception e){
+		System.out.println("Expection is: "+e.getMessage());
+		e.printStackTrace();
+		return false;
+		}
+		}
+		
+		public boolean scrollUp()
+		{
+		try{
+
+		JavascriptExecutor js = (JavascriptExecutor)objBaseTest.getDriver();
+		js.executeScript("window.scrollBy(0,document.body.scrollTop)");
+		return true;
+		}catch(Exception e){
+		System.out.println("Expection is: "+e.getMessage());
+		e.printStackTrace();
+		return false;
+		}
+		}
+	
 
 }

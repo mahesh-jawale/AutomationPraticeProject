@@ -1,14 +1,20 @@
 package com.generic;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 
 public class BaseTest {
 	
-	private WebDriver driver=null;
+	private static WebDriver driver=null;
 	private String strURL="";
 	private Properties objConfig;
 
@@ -57,6 +63,20 @@ public class BaseTest {
 
 	public void setObjseleniumWrapperFunctions(SeleniumWrapperFunctions objseleniumWrapperFunctions) {
 		this.objseleniumWrapperFunctions = objseleniumWrapperFunctions;
+	}
+	
+	public void getScreenShotPath(String testCaseName) throws IOException
+	{
+		TakesScreenshot screenShot	=(TakesScreenshot)getDriver();
+		System.out.println(screenShot);
+		File source=screenShot.getScreenshotAs(OutputType.FILE);
+		String destinationFile=System.getProperty("user.dir")+"\\screenshots\\"+testCaseName+".png";
+		System.out.println(destinationFile);
+		FileUtils.copyFile(source,new File(destinationFile));
+		
+		System.setProperty("org.uncommons.reportng.escape-output","false");
+		Reporter.log("<a href="+destinationFile+">Screenshot link</a>");
+	
 	}
 
 }

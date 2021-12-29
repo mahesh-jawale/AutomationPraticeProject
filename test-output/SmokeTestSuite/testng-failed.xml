@@ -10,4 +10,15 @@
       <class name="com.scripts.AuthenticationTest"/>
     </classes>
   </test> <!-- AutomationPracticeProjectTest -->
+  <test name="AutomationPracticeProjectTest(failed)">
+    <classes>
+      <class name="com.scripts.AuthenticationTest">
+        <methods>
+          <include name="beforeMainMethod"/>
+          <include name="afterMainMethod"/>
+          <include name="TCID_103_VerifyTabsOnMyAccountPage"/>
+        </methods>
+      </class> <!-- com.scripts.AuthenticationTest -->
+    </classes>
+  </test> <!-- AutomationPracticeProjectTest(failed) -->
 </suite> <!-- Failed suite [SmokeTestSuite] -->

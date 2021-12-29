@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestSuite]">
-  <listeners>
-    <listener class-name="com.generic.Listeners"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-  </listeners>
-  <test name="AutomationPracticeProjectTest">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
       <class name="com.scripts.AuthenticationTest"/>
     </classes>
-  </test> <!-- AutomationPracticeProjectTest -->
-  <test name="AutomationPracticeProjectTest(failed)">
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
     <classes>
       <class name="com.scripts.AuthenticationTest">
         <methods>
@@ -20,5 +16,5 @@
         </methods>
       </class> <!-- com.scripts.AuthenticationTest -->
     </classes>
-  </test> <!-- AutomationPracticeProjectTest(failed) -->
-</suite> <!-- Failed suite [SmokeTestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

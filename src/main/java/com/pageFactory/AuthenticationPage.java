@@ -1,14 +1,12 @@
 package com.pageFactory;
 
-import java.util.List;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
 
 import com.generic.BaseTest;
 
-public class AuthenticationPage {
+public class AuthenticationPage extends BaseTest{
 
 	private BaseTest objBaseTest;
 
@@ -50,22 +48,14 @@ public class AuthenticationPage {
 	}
 
 	public void clickOnSignInButtonInAuthenticationPage() {
+		//objBaseTest.getObjseleniumWrapperFunctions().fluentWait(loc_btnSigninInAlreadyRegisteredBox, 5,1);
+		//objBaseTest.getObjseleniumWrapperFunctions().explicitWait(loc_btnSigninInAlreadyRegisteredBox, 5);
 		// objBaseTest.getObjseleniumWrapperFunctions().implicitWait(10);
 		Assert.assertTrue(objBaseTest.getObjseleniumWrapperFunctions().click(loc_btnSigninInAlreadyRegisteredBox));
 		Reporter.log("Click On Sign in button", true);
+		//objBaseTest.getObjseleniumWrapperFunctions().scrollDownToBottom();
 	}
-
-	public void getAllLinksOfLoginPage() {
-		objBaseTest.getObjseleniumWrapperFunctions().implicitWait(10);
-		List<WebElement> allLinkLists = objBaseTest.getDriver().findElements(By.tagName("a"));
-		System.out.println("Link List Size --> " + allLinkLists.size());
-		for (WebElement webElement : allLinkLists) {
-
-			Reporter.log("All Links----> " + webElement.getText(), true);
-
-		}
-
-	}
+	
 
 	public void getIdAttributeValueOfSignInButtonFromAuthenticationPage() {
 		String strSignInButtonTxt = objBaseTest.getDriver().findElement(loc_btnSigninInAlreadyRegisteredBox)

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-SmokeTestSuite">
-              <span class="suite-name border-passed">SmokeTestSuite</span>
+              <span class="suite-name border-failed">SmokeTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-SmokeTestSuite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SmokeTestSuite" class="hide-methods failed suite-SmokeTestSuite"> (hide)</a> <!-- hide-methods failed suite-SmokeTestSuite -->
+                      <a href="#" panel-name="suite-SmokeTestSuite" class="show-methods failed suite-SmokeTestSuite"> (show)</a> <!-- show-methods failed suite-SmokeTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SmokeTestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.scripts.AuthenticationTest" hash-for-method="TCID_103_VerifyTabsOnMyAccountPage">TCID_103_VerifyTabsOnMyAccountPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SmokeTestSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +116,12 @@
                     <div class="method-list-content passed suite-SmokeTestSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.scripts.AuthenticationTest" hash-for-method="TCID_101_LoginFuctionality">TCID_101_LoginFuctionality</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.scripts.AuthenticationTest" hash-for-method="TCID_101_VerifyAndGetAllLinksOnHomePage">TCID_101_VerifyAndGetAllLinksOnHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.scripts.AuthenticationTest" hash-for-method="TCID_102_VerifyTabsOnMyAccountPage">TCID_102_VerifyTabsOnMyAccountPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.scripts.AuthenticationTest" hash-for-method="TCID_103_VerifyAndGetAllLinksOnAuthenticationPage">TCID_103_VerifyAndGetAllLinksOnAuthenticationPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.scripts.AuthenticationTest" hash-for-method="TCID_102_LoginFuctionality">TCID_102_LoginFuctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SmokeTestSuite -->
@@ -127,6 +136,27 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SmokeTestSuite" class="panel SmokeTestSuite">
+          <div class="suite-SmokeTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.scripts.AuthenticationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCID_103_VerifyTabsOnMyAccountPage">
+                  </a> <!-- TCID_103_VerifyTabsOnMyAccountPage -->
+                  <span class="method-name">TCID_103_VerifyTabsOnMyAccountPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.pageFactory.MyAccountPage.verifyTabWomenInMyAccountPageIsDisplayed(MyAccountPage.java:30)
+	at com.flows.MyAccountFlow.verifyTabsOnMyAccountPage(MyAccountFlow.java:17)
+	at com.scripts.AuthenticationTest.TCID_103_VerifyTabsOnMyAccountPage(AuthenticationTest.java:72)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTestSuite-class-failed -->
           <div class="suite-SmokeTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -135,23 +165,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TCID_101_LoginFuctionality">
-                  </a> <!-- TCID_101_LoginFuctionality -->
-                  <span class="method-name">TCID_101_LoginFuctionality</span>
+                  <a name="TCID_101_VerifyAndGetAllLinksOnHomePage">
+                  </a> <!-- TCID_101_VerifyAndGetAllLinksOnHomePage -->
+                  <span class="method-name">TCID_101_VerifyAndGetAllLinksOnHomePage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TCID_102_VerifyTabsOnMyAccountPage">
-                  </a> <!-- TCID_102_VerifyTabsOnMyAccountPage -->
-                  <span class="method-name">TCID_102_VerifyTabsOnMyAccountPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TCID_103_VerifyAndGetAllLinksOnAuthenticationPage">
-                  </a> <!-- TCID_103_VerifyAndGetAllLinksOnAuthenticationPage -->
-                  <span class="method-name">TCID_103_VerifyAndGetAllLinksOnAuthenticationPage</span>
+                  <a name="TCID_102_LoginFuctionality">
+                  </a> <!-- TCID_102_LoginFuctionality -->
+                  <span class="method-name">TCID_102_LoginFuctionality</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -175,6 +198,17 @@
       &lt;class name=&quot;com.scripts.AuthenticationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- AutomationPracticeProjectTest --&gt;
+  &lt;test name=&quot;AutomationPracticeProjectTest(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.scripts.AuthenticationTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeMainMethod&quot;/&gt;
+          &lt;include name=&quot;afterMainMethod&quot;/&gt;
+          &lt;include name=&quot;TCID_103_VerifyTabsOnMyAccountPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.scripts.AuthenticationTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutomationPracticeProjectTest(failed) --&gt;
 &lt;/suite&gt; &lt;!-- SmokeTestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,6 +221,9 @@
             <ul>
               <li>
                 <span class="test-name">AutomationPracticeProjectTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AutomationPracticeProjectTest(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,22 +251,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TCID_101_LoginFuctionality')
+data.setCell(0, 1, 'TCID_103_VerifyTabsOnMyAccountPage')
 data.setCell(0, 2, 'com.scripts.AuthenticationTest')
-data.setCell(0, 3, 8447);
+data.setCell(0, 3, 10209);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TCID_103_VerifyAndGetAllLinksOnAuthenticationPage')
+data.setCell(1, 1, 'TCID_102_LoginFuctionality')
 data.setCell(1, 2, 'com.scripts.AuthenticationTest')
-data.setCell(1, 3, 837);
+data.setCell(1, 3, 8360);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TCID_102_VerifyTabsOnMyAccountPage')
+data.setCell(2, 1, 'TCID_101_VerifyAndGetAllLinksOnHomePage')
 data.setCell(2, 2, 'com.scripts.AuthenticationTest')
-data.setCell(2, 3, 187);
+data.setCell(2, 3, 2258);
 window.suiteTableData['SmokeTestSuite']= { tableData: data, tableDiv: 'times-div-SmokeTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-SmokeTestSuite">
               </div> <!-- times-div-SmokeTestSuite -->
             </div> <!-- times-div -->
@@ -241,7 +278,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TCID_101_LoginFuctionality</span>
+              <span class="reporter-method-name">TCID_102_LoginFuctionality</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Verify header logo</span>
                 <span class="reporter-method-output">Click on Sign in option</span>
@@ -253,11 +290,10 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TCID_103_VerifyAndGetAllLinksOnAuthenticationPage</span>
+              <span class="reporter-method-name">TCID_101_VerifyAndGetAllLinksOnHomePage</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">All Links----> </span>
-                <span class="reporter-method-output">All Links----> Mahesh Jawale</span>
-                <span class="reporter-method-output">All Links----> Sign out</span>
+                <span class="reporter-method-output">All Links----> Sign in</span>
                 <span class="reporter-method-output">All Links----> Contact us</span>
                 <span class="reporter-method-output">All Links----> </span>
                 <span class="reporter-method-output">All Links----> Cart (empty)</span>
@@ -277,12 +313,107 @@ return data;
                 <span class="reporter-method-output">All Links----> </span>
                 <span class="reporter-method-output">All Links----> T-SHIRTS</span>
                 <span class="reporter-method-output">All Links----> </span>
-                <span class="reporter-method-output">All Links----> ORDER HISTORY AND DETAILS</span>
-                <span class="reporter-method-output">All Links----> MY CREDIT SLIPS</span>
-                <span class="reporter-method-output">All Links----> MY ADDRESSES</span>
-                <span class="reporter-method-output">All Links----> MY PERSONAL INFORMATION</span>
-                <span class="reporter-method-output">All Links----> MY WISHLISTS</span>
-                <span class="reporter-method-output">All Links----> Home</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Prev</span>
+                <span class="reporter-method-output">All Links----> Next</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> POPULAR</span>
+                <span class="reporter-method-output">All Links----> BEST SELLERS</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Faded Short Sleeve T-shirts</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Blouse</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Printed Dress</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Printed Dress</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Printed Summer Dress</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Printed Summer Dress</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Printed Chiffon Dress</span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> </span>
+                <span class="reporter-method-output">All Links----> Selenium Framework</span>
+                <span class="reporter-method-output">All Links----> </span>
                 <span class="reporter-method-output">All Links----> </span>
                 <span class="reporter-method-output">All Links----> </span>
                 <span class="reporter-method-output">All Links----> </span>
@@ -309,17 +440,14 @@ return data;
                 <span class="reporter-method-output">All Links----> My credit slips</span>
                 <span class="reporter-method-output">All Links----> My addresses</span>
                 <span class="reporter-method-output">All Links----> My personal info</span>
-                <span class="reporter-method-output">All Links----> Sign out</span>
                 <span class="reporter-method-output">All Links----> support@seleniumframework.com</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TCID_102_VerifyTabsOnMyAccountPage</span>
+              <span class="reporter-method-name">TCID_103_VerifyTabsOnMyAccountPage</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Verify header logo</span>
-                <span class="reporter-method-output">Verify Women tab</span>
-                <span class="reporter-method-output">Verify Dresses tab</span>
-                <span class="reporter-method-output">Verify TShirts tab</span>
+                <span class="reporter-method-output"><a href=C:\Automation-Workspace\AutomationPracticeProject\screenshots\TCID_103_VerifyTabsOnMyAccountPage.png>Screenshot link</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -343,20 +471,22 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">TCID_101_LoginFuctionality</span>
-                <span class="method-start">18231 ms</span>
+                <span class="method-name">TCID_101_VerifyAndGetAllLinksOnHomePage</span>
+                <span class="method-start">13699 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TCID_102_VerifyTabsOnMyAccountPage</span>
-                <span class="method-start">26680 ms</span>
+                <span class="method-name">TCID_102_LoginFuctionality</span>
+                <span class="method-start">15973 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TCID_103_VerifyAndGetAllLinksOnAuthenticationPage</span>
-                <span class="method-start">26868 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TCID_103_VerifyTabsOnMyAccountPage</span>
+                <span class="method-start">24341 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterMainMethod</span>
-                <span class="method-start">27707 ms</span>
+                <span class="method-start">34773 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,7 +1,6 @@
 package com.flows;
 
 import com.generic.BaseTest;
-
 import com.pageFactory.MyAccountPage;
 
 public class MyAccountFlow {

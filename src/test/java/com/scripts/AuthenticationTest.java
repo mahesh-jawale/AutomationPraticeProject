@@ -41,7 +41,13 @@ public class AuthenticationTest extends BaseTest {
 	}
 
 	@Test(priority = 1)
-	public void TCID_101_LoginFuctionality() {
+	public void TCID_101_VerifyAndGetAllLinksOnHomePage() throws Exception {
+		objHomePage.getAllLinksOfHomePage();
+		//objHomePage.verifyAllLinksOfHomePage();
+	}
+
+	@Test(priority = 2)
+	public void TCID_102_LoginFuctionality() throws Exception {
 		// verify HomePage is Displayed
 		objHomePage.verifyLogoInHomePage();
 		// Click On SignIn Option in Home Page
@@ -51,24 +57,19 @@ public class AuthenticationTest extends BaseTest {
 		// Get Id attribute value of Sign In Button
 		objAuthenticationPage.getIdAttributeValueOfSignInButtonFromAuthenticationPage();
 		// Verify Flows
+		//Thread.sleep(3);
 		objAuthenticationFlow.doLogin();
 		// verification point
 		objMyAccountPage.verifyUserIsLoggedInSucessfully();
 
 	}
 
-	@Test(priority = 2)
-	public void TCID_102_VerifyTabsOnMyAccountPage() {
+	@Test(priority = 3)
+	public void TCID_103_VerifyTabsOnMyAccountPage() {
 		// Verify My Account is Displayed
 		objMyAccountPage.verifyMyAccountPageIsDisplayed();
 		// Verify Tabs On My Account Page
 		objMyAccountFlow.verifyTabsOnMyAccountPage();
-	}
-
-	@Test(priority = 3)
-	public void TCID_103_VerifyAndGetAllLinksOnAuthenticationPage() throws Exception {
-		objAuthenticationPage.getAllLinksOfLoginPage();
-
 	}
 
 }

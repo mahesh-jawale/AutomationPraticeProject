@@ -16,7 +16,7 @@ public class MyAccountPage {
 
 	// Locators
 	By loc_hdrMyAccount = By.xpath("//span[text()='My account']");
-	By loc_TabWomenInMyAccount = By.xpath("//a[text()='Women']");
+	By loc_TabWomenInMyAccount = By.xpath("//a[text()='Womenn']");
 	By loc_TabDressesInMyAccount = By.xpath("//a[text()='Dresses']");
 	By loc_TabTShirtsInMyAccount = By.xpath("//a[text()='T-shirts']");
 	By loc_optionSignOutInMyAccount = By.xpath("//a[@class='logout']");
